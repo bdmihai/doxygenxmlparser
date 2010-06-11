@@ -30,10 +30,7 @@ private void ParseCompounds()
   {
     if (compound is Doxygen.XMLParser.File)
     {
-      if (!excludedFileList.Contains(compound.name().Trim()))
-      {
-        Console.Out.WriteLine("Parsing documentation for file: " + compound.name());
-      }
+       Console.Out.WriteLine("Parsing documentation for file: " + compound.name());
     }
 
     if (compound is Doxygen.XMLParser.Struct)
