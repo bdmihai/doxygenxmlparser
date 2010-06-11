@@ -1,4 +1,4 @@
-#summary Getting started
+#summary Getting started with doxygen parser in C#
 
 = Read a folder =
 
