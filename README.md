@@ -13,13 +13,17 @@ Doxygen is a documentation system for C++, C, Java, Objective-C, Python, IDL (Co
 http://www.stack.nl/~dimitri/doxygen/index.html
 
 WIKI:
+
 Read a folder
+
 parser = new Doxygen.XMLParser.DoxygenParser();
 
 if (!(parser.readXMLDir(xmlFolder)))
 {
   throw new System.Exception("Index.xml not found in " + xmlFolder);
 }
+
+
 Parsing compounds
 /// <summary>
 /// This method parses all the compounds and handles all function and
