@@ -16,15 +16,16 @@ WIKI:
 
 Read a folder
 
+```
 parser = new Doxygen.XMLParser.DoxygenParser();
-
 if (!(parser.readXMLDir(xmlFolder)))
 {
   throw new System.Exception("Index.xml not found in " + xmlFolder);
 }
-
+```
 
 Parsing compounds
+```
 /// <summary>
 /// This method parses all the compounds and handles all function and
 /// structure compounds.
@@ -53,3 +54,4 @@ private void ParseCompounds()
     compoundIt.toNext();
   }
 }
+```
