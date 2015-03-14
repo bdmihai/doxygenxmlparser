@@ -1,5 +1,4 @@
-# doxygenxmlparser
-Managed wrapper for doxygen xml documentation
+# Managed wrapper for doxygen xml documentation
 
 This project is a wrapper over the xml parser provided together with doxygen.
 
